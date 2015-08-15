@@ -9,119 +9,122 @@
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
 </head>
 <body>
-    <div class="container">
-     <div class="row">
-         <div class="col-md-6">
-               <img src="https://sumozasnullpointer.files.wordpress.com/2015/04/udacity-logo.jpg" alt="Udacity logo"
+<div class="container">
+    <header class="row">
+        <div class="col-md-6">
+            <img src="https://sumozasnullpointer.files.wordpress.com/2015/04/udacity-logo.jpg" alt="Udacity logo"
                  class="title-img">
-         </div>
-          <div class="col-md-6 text-uppercase text-right">
-             <h1 class="text-muted title-super">Utku Sahin</h1>
+        </div>
+        <div class="col-md-6 text-uppercase text-right">
+            <h1 class="text-muted title-super">Utku Sahin</h1>
 
-             <h3>Front-end Apprentice</h3>
+            <h3>Front-end Apprentice</h3>
+        </div>
+    </header>
+
+    <article>
+        <section class="row">
+            <div class="col-md-12">
+                <hr style="margin-right: 1.4%">
+                <img src="images/img-main-small.jpg" srcset="images/img-main-small.jpg 500w, images/img-main-medium.jpg 900w,
+                images/img_main.jpg 1200w" sizes="(max-width: 600px) 500px, (max-width:1000px) 900px, 1400px"
+                     alt="Web themed main image" class="img-responsive">
             </div>
-       </div>
+        </section>
 
 
-    <div class="row">
-        <div class="col-md-12">
-            <hr style="margin-right: 1.4%">
-            <img src="images/img-main-small.jpg" srcset="images/img-main-small.jpg 500w, images/img-main-medium.jpg 900w,
-             images/img_main.jpg 1200w" sizes="(max-width: 600px) 500px, (max-width:1000px) 900px, 1400px" alt="Web themed main image" class="img-responsive">
-        </div>
-    </div>
+        <section class="row">
+            <div class="col-md-12">
+                <h2>Featured Work</h2>
+            </div>
+        </section>
 
 
-    <div class="row">
-        <div class="col-md-12">
-            <h2>Featured Work</h2>
-        </div>
-    </div>
+        <section class="row text-center">
+            <div class="col-md-4">
+                <img src="images/img-resume.svg" class="img-responsive center-block"
+                     alt="Online Resume Image" data-toggle="modal" data-target="#project1">
+
+                <h3>Online Resume</h3>
+
+                <p><a href="http://github.com">Link to project</a></p>
+            </div>
+            <div class="col-md-4">
+                <img src="images/img-frogger.svg" class="img-responsive center-block" alt="Frogger Image"
+                     data-toggle="modal" data-target="#project2">
+
+                <h3>Frogger Clone</h3>
+
+                <p><a href="http://github.com">Link to project</a></p>
+            </div>
+            <div class="col-md-4">
+                <img src="images/img-map.jpg" class="img-responsive center-block"
+                     alt="Neighborhood Map Image"
+                     data-toggle="modal" data-target="#project3">
+
+                <h3>Neighborhood Map Project</h3>
+
+                <p><a href="http://github.com">Link to project</a></p>
+            </div>
+        </section>
+</div>
+</article>
 
 
-    <div class="row text-center">
-        <div class="col-md-4">
-            <img src="images/img-resume.svg" class="img-responsive center-block"
-                 alt="Online Resume Image" data-toggle="modal" data-target="#project1">
+<!-- Modal -->
+<div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="myModalLabel">Online Resume</h4>
+            </div>
+            <div class="modal-body">
+                <img class="img-responsive" alt="Resume" src="images/img-resume.svg">
 
-            <h3>Online Resume</h3>
-
-            <p><a href="http://github.com">Link to project</a></p>
-        </div>
-        <div class="col-md-4">
-            <img src="images/img-frogger.svg" class="img-responsive center-block" alt="Frogger Image"
-                 data-toggle="modal" data-target="#project2">
-
-            <h3>Frogger Clone</h3>
-
-            <p><a href="http://github.com">Link to project</a></p>
-        </div>
-        <div class="col-md-4">
-            <img src="images/img-map.jpg" class="img-responsive center-block"
-                 alt="Neighborhood Map Image"
-                 data-toggle="modal" data-target="#project3">
-
-            <h3>Neighborhood Map Project</h3>
-
-            <p><a href="http://github.com">Link to project</a></p>
+                <p>This is my interactive resume which shows my front-end development skills.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
         </div>
     </div>
 </div>
 
-    <!-- Modal -->
-    <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h4 class="modal-title" id="myModalLabel">Online Resume</h4>
-                </div>
-                <div class="modal-body">
-                    <img class="img-responsive" alt="Resume" src="images/img-resume.svg">
+<div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="myModalLabel2">Frogger Clone</h4>
+            </div>
+            <div class="modal-body">
+                <img class="img-responsive" alt="Frogger" src="images/img-frogger.svg">
 
-                    <p>This is my interactive resume which shows my front-end development skills.</p>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                </div>
+                <p>This is my implementation of the classic arcade game Frogger</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
             </div>
         </div>
     </div>
+</div>
 
-    <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h4 class="modal-title" id="myModalLabel2">Frogger Clone</h4>
-                </div>
-                <div class="modal-body">
-                    <img class="img-responsive" alt="Frogger" src="images/img-frogger.svg">
+<div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="myModalLabel3">Neighborhood Map</h4>
+            </div>
+            <div class="modal-body">
+                <img class="img-responsive" alt="Neighborhood Map" src="images/img-map.jpg">
 
-                    <p>This is my implementation of the classic arcade game Frogger</p>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                </div>
+                <p>A map of my neighborhood including places of interest and other content I wanted to add</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
             </div>
         </div>
     </div>
-
-    <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h4 class="modal-title" id="myModalLabel3">Neighborhood Map</h4>
-                </div>
-                <div class="modal-body">
-                    <img class="img-responsive" alt="Neighborhood Map" src="images/img-map.jpg">
-
-                    <p>A map of my neighborhood including places of interest and other content I wanted to add</p>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                </div>
-            </div>
-        </div>
-    </div>
+</div>
 
 </body>
 </html>
