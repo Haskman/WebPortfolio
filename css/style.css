@@ -15,3 +15,8 @@ body{
 hr{
     border-color: #747704;
 }
+
+.modal-text{
+    font-family: 'Roboto', sans-serif;
+    color: #245269;
+}
