@@ -1,22 +1,22 @@
-body{
+body {
     font-family: 'Poiret One', cursive;
     color: #747704;
     font-weight: 300;
 }
 
-.title-super{
+.title-super {
     font-size: 60px;
 }
 
-.title-img{
+.title-img {
     margin: 10px;
 }
 
-hr{
+hr {
     border-color: #747704;
 }
 
-.modal-text{
+.modal-text {
     font-family: 'Roboto', sans-serif;
     color: #245269;
 }
