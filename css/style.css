@@ -1,5 +1,7 @@
+/*Custom Styles*/
+
 body {
-    font-family: 'Poiret One', cursive;
+    font-family: "Poiret One", cursive;
     color: #747704;
     font-weight: 300;
 }
@@ -17,6 +19,6 @@ hr {
 }
 
 .modal-text {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     color: #245269;
 }
